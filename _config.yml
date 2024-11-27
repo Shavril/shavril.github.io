@@ -1,3 +1,4 @@
-theme: pages-themes/minimal@v0.2.0
+theme: jekyll-theme-minimal
 title: Michaela Honkova's homepage
+logo: /assets/img/logo.png
 description: Summary of my projects and professional development.
