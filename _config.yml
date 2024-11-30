@@ -30,7 +30,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "defa
 
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : Michaela Honkova's Homepage
+title                    : Project Portfolio
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 email                    : honkova84@gmail.com
@@ -124,6 +124,10 @@ analytics:
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
+
+# Header image
+header:
+  image: /assets/images/header.png
 
 # Site Author
 author:
