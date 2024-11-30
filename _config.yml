@@ -33,7 +33,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : Michaela Honkova's Homepage
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-#email                    : honkova84@gmail.com
+email                    : honkova84@gmail.com
 name                     : "Michaela Honkova"
 description              : Summary of my projects and professional development.
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -130,11 +130,11 @@ author:
   name             : "Michaela Honkova"
   avatar           : /assets/images/logo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science & Analytics  and Astronomy"
-  location         : "the Earth"
+  #location         : "the Earth"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:honkova84@gmail.com"
+      url: "mailto:honkova84@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
