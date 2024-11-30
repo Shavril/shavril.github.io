@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "How I set up a website on GitHub Pages"
 date:   2024-11-27 19:00:00 +0100
 categories: jekyll update
