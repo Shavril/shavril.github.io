@@ -2,7 +2,7 @@
 layout: single
 title:  "Projects I did before"
 date:   2024-12-14 19:00:00 +0100
-categories: project
+categories: update
 ---
 
 It will take me a while to write about my previous projects. In meanwhile, a list with a few major projects summary will have to do. It goes from the newest to oldest.
