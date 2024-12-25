@@ -6,8 +6,6 @@ categories: tutorials
 tags: github, python, poetry, pandas, plotly, scikit-learn, taipy, kaggle
 ---
 
-# simple-taipy-dashboard
-
 Simple data science dashboard using `Taipy`. I found a good looking [Youtube Tutorial from MariyaSha](https://www.youtube.com/watch?v=hxYIpH94u20) on Taipy package in Python, and since I usually use Looker Studio for interactive dashboards, I wanted to give it a try. There were some hiccups along the way but I did it. I went with a different setup than the author, which I decribe here.
 
 ## Introduction
@@ -64,7 +62,7 @@ if __name__ == "__main__":
 
 and ran `main.py`. It serves the web application locally on [http://localhost:5000](http://localhost:5000).
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/simple-taipy-stock-dashboard-01.jpg){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/simple-taipy-stock-dashboard-01.png){: .align-center}
 
 
 ## The trouble
@@ -99,7 +97,7 @@ from tf_keras.layers import Dense
 
 The rest of the tutorial worked like a charm. Here's my dashboard!
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/simple-taipy-stock-dashboard-02.jpg){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/simple-taipy-stock-dashboard-02.png){: .align-center}
 
 Seeing [the author's GitHub repository](https://github.com/MariyaSha/data_science_dashboard), she added comments and docstrings, compared to the tutorial. I also have somewhat different coding style compared to the author; I generally prefer to use f-strings, and type hints.  
 
