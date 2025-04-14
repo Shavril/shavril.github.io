@@ -3,7 +3,7 @@ layout: single
 title:  "ESA Observing Statistics Utility"
 date:   2025-01-02 19:00:00 +0100
 categories: projects
-tags: astrophysics, xml, python, esa, poetry, github
+tags: astrophysics xml python esa poetry github
 ---
 
 I wrote a small utility to produce statistics from ADES astrometric observations. 

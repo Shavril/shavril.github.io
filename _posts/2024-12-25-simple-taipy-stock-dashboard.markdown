@@ -3,7 +3,7 @@ layout: single
 title:  "Simple Taipy Stock Dashboard"
 date:   2024-12-25 19:00:00 +0100
 categories: tutorials
-tags: github, python, poetry, pandas, plotly, scikit-learn, taipy, kaggle
+tags: github python poetry pandas plotly scikit-learn taipy kaggle
 ---
 
 Simple data science dashboard using `Taipy`. I found a good looking [Youtube Tutorial from MariyaSha](https://www.youtube.com/watch?v=hxYIpH94u20) on Taipy package in Python, and since I usually use Looker Studio for interactive dashboards, I wanted to give it a try. There were some hiccups along the way but I did it. I went with a different setup than the author, which I decribe here.

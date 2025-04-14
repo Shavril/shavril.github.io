@@ -3,7 +3,7 @@ layout: single
 title:  "Applied Mathematics Doctoral Thesis"
 date:   2024-12-30 19:00:00 +0100
 categories: projects
-tags: statistics, astrophysics, image processing, python
+tags: statistics astrophysics image_processing python
 ---
 
 Overview of my doctorate dissertation in Applied Mathematics, with pictures, results and a link to the full work.  
