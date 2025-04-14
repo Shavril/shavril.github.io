@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Simple Sales Report in Looker Studio"
-date:   2025-04-14 19:00:00 +0100
+date:   2025-04-14 10:00:00 +0100
 categories: projects
 tags: looker studio, bigquery, csv, kaggle
 ---
