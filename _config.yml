@@ -132,7 +132,7 @@ header:
 # Site Author
 author:
   name             : "Michaela Honkova"
-  avatar           : /assets/images/logo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/logo.jpeg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science & Analytics  and Astronomy"
   #location         : "the Earth"
   links:
