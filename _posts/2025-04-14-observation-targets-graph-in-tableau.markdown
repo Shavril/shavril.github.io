@@ -1,5 +1,6 @@
 ---
 layout: single
+math: true
 title:  "Observation Targets Graph in Tableau"
 date:   2025-04-14 10:00:00 +0100
 categories: projects
@@ -20,8 +21,8 @@ I have all the information I need for this task in the observation files in `.xm
 ```xml
 <ades version="2017">
   <obsBlock>
-	<obsData>
-	  <optical>
+    <obsData>
+      <optical>
         <provID>2025 FP</provID>
         <obsTime>2025-03-20T20:59:28.638Z</obsTime>
         <ra>213.011722</ra>
@@ -43,7 +44,7 @@ I have all the information I need for this task in the observation files in `.xm
 
  The brightness of the object is denoted as `<mag>` and given in magnitudes - an astronomical logarithmic measure of brightness. The motion speed of the object is not provided directly, but we can compute it as the change in position over a given time. Motion speed in this case is typically expressed in `''/min` (arcseconds per minute). 
 
-The positions in the sky are given in [Celestial Coordinates](https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/#hds-sidebar-nav-2) Right Ascension and Declination. In out data, Right Ascension `<ra>` is given in degrees and is the celestial spere's equivalent of longitude. Declination `<dec>`, also in degrees, is the celestial equivalent of latitude. We can calculate the positional change using the Pythagorean theorem as $`\sqrt{ra^2 + dec^2}`$. Technically, since the sky is a sphere, we should use a spherical triangle, but over a small area like this, the sky is nearly flat, so a planar triangle is good enough approximation.
+The positions in the sky are given in [Celestial Coordinates](https://science.nasa.gov/learn/basics-of-space-flight/chapter2-2/#hds-sidebar-nav-2) Right Ascension and Declination. In our data, Right Ascension `<ra>` is given in degrees and is the celestial spere's equivalent of longitude. Declination `<dec>`, also in degrees, is the celestial equivalent of latitude. We can calculate the positional change using the Pythagorean theorem as \( \sqrt{ra^2 + dec^2} \). Technically, since the sky is a sphere, we should use a spherical triangle, but over a small area like this, the sky is nearly flat, so a planar triangle is good enough approximation.
 
 To determine how long the positional change took, we simply compute the time difference between the two observations. Then the motion of the object in `''/min` is the positional change in arcseconds divided by the time elapsed in minutes. 
 
