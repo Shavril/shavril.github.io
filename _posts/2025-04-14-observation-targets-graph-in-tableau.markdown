@@ -3,7 +3,7 @@ layout: single
 title:  "Observation Targets Graph in Tableau"
 date:   2025-04-14 10:00:00 +0100
 categories: projects
-tags: tableau, xml, csv, python, pandas, klet
+tags: tableau xml csv python pandas klet
 ---
 
 How fast and faint objects did Klet Observatory observed lately?
